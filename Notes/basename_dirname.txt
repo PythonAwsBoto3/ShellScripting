@@ -1,0 +1,7 @@
+basename:
+basename /usr/loca/webserver/bin/httpd
+output is: httpd
+
+dirname:
+dirname /usr/local/webserver/bin/httpd
+output is: /usr/loca/webserver/bin
