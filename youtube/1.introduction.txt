@@ -1,0 +1,41 @@
+Q.What is a Shell Script ?
+Ans:
+#Shell program is also called as Shell Script. 
+#All scripting languages are programming languages but all programming languages are not scripting languages.
+
+Shell script is defined as is text file that contains series/sequence of commands for Unix like systems.
+So, simply, in shell script each line is a one Unix command.
+
+Let me do simple commands:
+pwd
+
+ls -lrt 
+
+instead of running these two commands, you can create a simple file which consist of these two commands.
+
+like:
+  #!/bin/bash
+  pwd
+  ls
+  
+Now observe the output. which is same as, when we ran commands one by one command right.
+
+Now, you shold also know what is a shell ?
+
+Shell is basically is an interpreter.
+Shell is an interface between user and Unix kernal.
+So, our shell scripting language comes under interpreted language.
+That means you can run one by one line of your shell script even from command line also.
+
+
+In Unix like systems you are having different types of Shells:
+  ex:
+    Bash Shell
+    Sh Shell
+    C Shell
+    K  Sell
+    Z Shell
+    Fish Shell
+    
+   The way how to write shell scripting in each shell follows same concept but syntaxes are different.
+   In this Video Series i will go with Bash Shell. That is Bash Shell Scripting.
